@@ -5,6 +5,15 @@
   
 }
 
+.common-design{
+    
+    width: 83%;
+    max-width: 1600px;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+
+
 .btn{
     background-color: #30B868;
     border: none;
@@ -17,18 +26,13 @@
 }
 
 
-
-
 header{
     background-color: white;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    width: 83%;
-    max-width: 1600px;
-    border: 1px solid red;
-    margin: 0px auto;
+    
 }
 
 .container .logo{
@@ -53,3 +57,11 @@ header{
 .container .menu-btn{
     margin: 24px auto;   
 }
+
+#banner{
+    background: url(../assets/hero-bg.png) , white ;
+}
+#banner .banner-content{
+    margin: 115.5px 120px 179.5px;
+}  
+    
