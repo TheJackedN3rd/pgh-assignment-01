@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* shared style */
@@ -179,3 +180,89 @@ header{
     background: rgba(249, 85, 85, 1);
 }
 
+/* Second Brain Section */
+
+.second-brain{
+    
+    display: flex;
+    padding: 120px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.second-brain img{
+    border-radius: 12px;
+    
+}
+
+.section-message h5{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.section-message h2{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.section-message p{
+    margin-top: 16px;
+    color: rgba(98,115,130,1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section-message ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.section-message li{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section-message span{
+    color: rgba(0, 25, 49, 1);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+/* footer section */
+
+footer{
+    background-color: #001931;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px 168px 120px;
+}
+
+
+footer h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.white-bg {
+    display: inline-flex;
+    width: 20px;           
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
