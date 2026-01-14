@@ -41,6 +41,7 @@
     cursor: pointer;
 }
 
+/* Navbar Section */
 
 header{
     background-color: white;
@@ -73,6 +74,8 @@ header{
 .container .menu-btn{
     margin: 24px auto;   
 }
+
+/* Banner Section */
 
 #banner{
     background: url(../assets/hero-bg.png) , white ;
@@ -120,12 +123,59 @@ header{
     border-radius: 1000px;
     color: #30B868;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 
 .early-access-button img {
-    width: 16px;  /* Adjust based on your preference */
+    width: 16px; 
     height: 16px;
     display: inline;
 }
+
+/* Notes Section */
+
+.heading{
+    margin: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 25, 49, 1);
+}
+
+.subtitle{
+    color: rgba(98,115,130,1);
+    margin-bottom: 44px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-parent{
+    display: flex;
+    gap: 24px;
+    padding: 0 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 0px 0px  0px 0.6px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.red-bg {
+    width: 60px;           
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(249, 85, 85, 1);
+}
+
