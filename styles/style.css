@@ -1,3 +1,10 @@
+/* Universal Selector */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* shared style */
 .font-inter{
   font-family: "Inter", sans-serif;
@@ -5,18 +12,27 @@
   
 }
 
-.common-design{
-    
-    width: 83%;
+.common-design{    
     max-width: 1600px;
     border: 1px solid red;
-    margin: 0px auto;
+    margin: auto;
 }
 
 
 .btn{
     background-color: #30B868;
     border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-2{
+    background-color: transparent;
+    border: 1px solid white;
     padding: 12.5px 16px;
     border-radius: 4px;
     font-size: 16px;
@@ -61,7 +77,55 @@ header{
 #banner{
     background: url(../assets/hero-bg.png) , white ;
 }
-#banner .banner-content{
+.banner-content{
+    display: flex;
+    flex-direction: column;
     margin: 115.5px 120px 179.5px;
-}  
+    align-items: center;
+    justify-content: center;
+} 
+
+.banner-content .caption-1{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner-content .caption-2{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.banner-content p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
     
+.btn-parent{
+    
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.banner-content .early-access-button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.early-access-button img {
+    width: 16px;  /* Adjust based on your preference */
+    height: 16px;
+    display: inline;
+}
