@@ -15,7 +15,7 @@
 
 .common-design{    
     max-width: 1600px;
-    border: 1px solid red;
+    border: 1px solid transparent;
     margin: auto;
 }
 
@@ -109,6 +109,8 @@ header{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    max-width: 50%;
+    line-height: 1.5;
 }
     
 .btn-parent{
@@ -185,7 +187,7 @@ header{
 .second-brain{
     
     display: flex;
-    padding: 120px;
+    /* padding: 120px; */
     justify-content: flex-start;
     align-items: center;
     gap: 60px;
@@ -216,6 +218,8 @@ header{
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    max-width: 50%;
+    line-height: 1.5;
 }
 
 .section-message ul{
@@ -235,6 +239,25 @@ header{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
+}
+
+/* early access section */
+
+.early-access-section{
+    border-radius: 12px;
+    background-color: rgba(247, 246, 242, 1);
+    max-width: 85%;
+    margin: 120px;
+    
+}
+.early-access-contents{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 40px;
+    
 }
 
 
